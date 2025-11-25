@@ -17,8 +17,6 @@ Below is a **sample image** representing the UI of the QA Agent:
 ![Sample Website Screenshot](./screenshot.png)
 
 
-*(Replace it later with your own screenshot if you want.)*
-
 ---
 
 ## 🧠 Features
@@ -54,4 +52,5 @@ Provides an interactive web interface for uploading docs and generating outputs.
 ---
 
 ## 📂 Project Structure
+
 
