@@ -1,0 +1,10 @@
+UI/UX Guidelines
+
+1. All form validation errors must be shown in RED.
+2. The "Pay Now" button must be GREEN with white text.
+3. Discount error messages must appear directly under the discount field.
+4. Email field must validate email format.
+5. Required fields: name, email, address.
+6. Radio buttons must be visually grouped (Shipping, Payment).
+7. After successful payment, success message must be displayed in bold.
+

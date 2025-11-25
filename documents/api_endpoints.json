@@ -1,0 +1,26 @@
+{
+  "POST /apply_coupon": {
+    "fields": {
+      "code": "string"
+    },
+    "response": {
+      "discountApplied": "boolean",
+      "newTotal": "number"
+    }
+  },
+  "POST /submit_order": {
+    "fields": {
+      "name": "string",
+      "email": "string",
+      "address": "string",
+      "shipping": "string",
+      "payment_method": "string"
+    },
+    "response": {
+      "success": "boolean",
+      "orderId": "string"
+    }
+  }
+}
+
+

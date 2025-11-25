@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>E-Shop Checkout</title>
+    <style>
+        .error { color: red; }
+        #pay_now { background: green; color: white; }
+    </style>
+</head>
+<body>
+
+    <h1>Checkout Page</h1>
+
+    <!-- Items -->
+    <h2>Items</h2>
+    <div>
+        <p>Product A - $100 
+            <button id="add_item_1">Add to Cart</button>
+        </p>
+        <p>Product B - $50
+            <button id="add_item_2">Add to Cart</button>
+        </p>
+    </div>
+
+    <!-- Cart Summary -->
+    <h2>Cart Summary</h2>
+    <div>
+        <label>Quantity:</label>
+        <input id="quantity" type="number" value="1">
+        <p>Total Price: <span id="total_price">$100</span></p>
+    </div>
+
+    <!-- Discount Code -->
+    <h2>Discount Code</h2>
+    <input id="discount_code" placeholder="Enter code">
+    <button id="apply_discount">Apply</button>
+    <div id="discount_error" class="error"></div>
+
+    <!-- User Details -->
+    <h2>User Details</h2>
+    <input id="name" placeholder="Full Name">
+    <div id="name_error" class="error"></div>
+
+    <input id="email" placeholder="Email">
+    <div id="email_error" class="error"></div>
+
+    <input id="address" placeholder="Address">
+    <div id="address_error" class="error"></div>
+
+    <!-- Shipping -->
+    <h2>Shipping Method</h2>
+    <label><input type="radio" name="ship" id="ship_standard">Standard (Free)</label><br>
+    <label><input type="radio" name="ship" id="ship_express">Express ($10)</label><br>
+
+    <!-- Payment -->
+    <h2>Payment Method</h2>
+    <label><input type="radio" name="pay" id="pay_card">Credit Card</label><br>
+    <label><input type="radio" name="pay" id="pay_paypal">PayPal</label><br>
+
+    <button id="pay_now">Pay Now</button>
+
+    <h3 id="success_message"></h3>
+
+</body>
+</html>
+
+
+
